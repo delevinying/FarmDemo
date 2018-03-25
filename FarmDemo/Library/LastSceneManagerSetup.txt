@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Invector-3rdPersonController/Scenes/3rdPersonController-Mobile.unity
+- path: Assets/TouchJoysticks/DemoScenes/LeftJoystickDemo.unity
   isLoaded: 1
   isActive: 1
