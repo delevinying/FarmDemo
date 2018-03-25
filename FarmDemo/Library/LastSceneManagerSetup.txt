@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Invector-3rdPersonController/Scenes/3rdPersonController-Mobile.unity
+  isLoaded: 1
+  isActive: 1

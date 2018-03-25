@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e17d5631193d7daac06cdec36618706f6a20649e">
+        <dex dex="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Temp/gradleOut/build/intermediates/pre-dexed/debug/unity-classes_cffedb5fd870d25aef0f5a95de021121d040ec7d.jar" />
+    </item>
+
+</items>
