@@ -60,6 +60,7 @@ public class ClickEventManager : MonoBehaviour {
     {
 
         windowRect = GUI.Window(0, windowRect, DoMyWindow, "My Window");
+        //GUI.
 
     }
 

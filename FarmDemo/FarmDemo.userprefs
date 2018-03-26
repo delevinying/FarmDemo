@@ -2,14 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.FarmDemo PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ClickEventManager.cs">
     <Files>
-      <File FileName="Assets/rotation.cs" Line="132" Column="53" />
-      <File FileName="Assets/Rotate.cs" Line="7" Column="34" />
-      <File FileName="Assets/ClickEventManager.cs" Line="6" Column="1" />
+      <File FileName="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="90" Column="4" />
+      <File FileName="Assets/ClickEventManager.cs" Line="63" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" relfile="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="72" column="1" />
+      <Breakpoint file="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" relfile="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="36" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
