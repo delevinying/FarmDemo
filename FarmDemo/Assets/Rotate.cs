@@ -14,7 +14,30 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RotateView();
+       
+    }
+
+    void FixedUpdate()
+    {
+        // if the screen has been touched
+        if (Input.touchCount > 0)
+        {
+            Touch[] myTouches = Input.touches; // gets all the touches and stores them in an array
+
+            // loops through all the current touches
+            for (int i = 0; i < Input.touchCount; i++)
+            {
+                // if this touch just started (finger is down for the first time), for this particular touch 
+                if (myTouches[i].phase == TouchPhase.Began)
+                {
+                    // if this touch is on the left-side half of screen
+                    if (myTouches[i].position.x > Screen.width / 2)
+                    {
+                        RotateView();
+                    }
+                }
+            }
+        }
     }
     void RotateView()
     {
@@ -32,5 +55,6 @@ public class Rotate : MonoBehaviour
         {
             transform.RotateAround(transform.position, Vector3.up, rotateSpeed * Input.GetAxis("Mouse X"));
         }
+       
     }
 }

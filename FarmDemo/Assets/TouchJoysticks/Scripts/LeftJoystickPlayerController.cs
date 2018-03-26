@@ -49,10 +49,12 @@ public class LeftJoystickPlayerController : MonoBehaviour
         {
             animator.SetBool("isRunning", false);
         }
-  
+
         // if there is only input from the left joystick
         if (leftJoystickInput != Vector3.zero)
         {
+            Debug.Log("r    " + this.gameObject.transform.rotation.x + "    " + this.gameObject.transform.rotation.y + "     " + this.gameObject.transform.rotation.z);
+            transform.RotateAround(transform.position, Vector3.up, 0f);
             // calculate the player's direction based on angle
             float tempAngle = Mathf.Atan2(zMovementLeftJoystick, xMovementLeftJoystick);
             xMovementLeftJoystick *= Mathf.Abs(Mathf.Cos(tempAngle));

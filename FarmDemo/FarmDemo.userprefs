@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{F74150BA-7645-838E-E758-B6DD90AB9566}|">
   <MonoDevelop.Ide.ItemProperties.FarmDemo PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ClickEventManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/AnimalBehavior.cs">
     <Files>
-      <File FileName="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="90" Column="4" />
-      <File FileName="Assets/ClickEventManager.cs" Line="63" Column="13" />
+      <File FileName="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="96" Column="34" />
+      <File FileName="Assets/ClickEventManager.cs" Line="4" Column="14" />
+      <File FileName="Assets/Rotate.cs" Line="36" Column="38" />
+      <File FileName="Assets/TouchJoysticks/Scripts/LeftJoystickPlayerController.cs" Line="59" Column="1" />
+      <File FileName="Assets/CatBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/AnimalBehavior.cs" Line="5" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,6 +15,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" relfile="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="72" column="1" />
       <Breakpoint file="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" relfile="Assets/Invector-3rdPersonController/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="36" column="1" />
+      <Breakpoint file="/Users/delevinying/Documents/GitHub/FarmDemo/FarmDemo/Assets/TouchJoysticks/Scripts/LeftJoystickTouchContoller.cs" relfile="Assets/TouchJoysticks/Scripts/LeftJoystickTouchContoller.cs" line="64" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

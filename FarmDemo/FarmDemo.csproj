@@ -318,6 +318,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CatBehavior.cs" />
     <Compile Include="Assets\ClickEventManager.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Scripts\Camera\Helper.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Scripts\Camera\TPCamera.cs" />
@@ -393,6 +394,7 @@
     <Compile Include="Assets\Invector-3rdPersonController\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Rotate.cs" />
     <Compile Include="Assets\rotation.cs" />
+    <Compile Include="Assets\scripts\AnimalBehavior.cs" />
     <Compile Include="Assets\TouchJoysticks\Scripts\DualJoystickPlayerController.cs" />
     <Compile Include="Assets\TouchJoysticks\Scripts\DualJoystickTouchContoller.cs" />
     <Compile Include="Assets\TouchJoysticks\Scripts\LeftJoystick.cs" />
