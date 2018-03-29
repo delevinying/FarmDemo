@@ -147,11 +147,15 @@
            
                 //图像区域，判定设置为 颜色的A > 0.5,输出为材质颜色+光亮值
                 if(texCol.w >0.5)
-                        outp  =texCol+float4(1,1,1,1)*tmpBrightness;
+                    outp  =texCol+float4(1,9,9,1)*tmpBrightness;
                 //空白区域，判定设置为 颜色的A <=0.5,输出空白
                 else
-                    outp =float4(0,0,0,0);
+                    outp = float4(0,0,0,0);//(1,1,1,1);
 
+
+
+
+                
                 return outp;
             }
             ENDCG
