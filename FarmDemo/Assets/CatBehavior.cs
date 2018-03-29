@@ -21,9 +21,8 @@ public class CatBehavior : MonoBehaviour {
             fg = !fg;
         }
         if(!fg){
-            _ani.SetBool("isMove", true);
-            Vector3 dr = point2 -this.gameObject.transform.position;
-            this.gameObject.transform.Translate(dr);
+            
+            this.gameObject.transform.Translate(this.gameObject.transform.forward*Time.deltaTime);
         }
 
        
