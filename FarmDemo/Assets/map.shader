@@ -57,7 +57,7 @@
             v2f vert (appdata_base v)
             {
                 v2f o;
-                   o.pos = UnityObjectToClipPos(v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv =    TRANSFORM_TEX(v.texcoord,_MainTex);
                 return o;
             }
@@ -143,6 +143,7 @@
                 //角度，uv,光带的x长度，间隔，开始时间，偏移，单次循环时间
                 // _L_Width;_T_Lng  _ST_Lng  _OFFSET  _One_T
                 tmpBrightness = inFlash(_Ang,i.uv,_L_Width,_T_Lng,_ST_Lng,_OFFSET,_One_T);
+
                 // tmpBrightness = inFlash(_Ang,i.uv,0.25,5,2,0.15,0.7);
            
                 //图像区域，判定设置为 颜色的A > 0.5,输出为材质颜色+光亮值
