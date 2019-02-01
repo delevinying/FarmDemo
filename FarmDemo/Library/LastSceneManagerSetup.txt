@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Farm_v3.unity
+- path: Assets/isLand.unity
   isLoaded: 1
   isActive: 1
